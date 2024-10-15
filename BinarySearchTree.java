@@ -119,22 +119,6 @@ class BinarySearchTree{
         while(temp != null){
             smallestValue = temp.data;
             temp = temp.left;
-            /*if(temp.right == null && temp.left == null){
-                temp = null;
-            }else{
-                if(temp.right == null){
-                    temp = temp.left;
-                }else if(temp.left == null){
-                    temp = temp.right;
-                }else{
-                    if(smallestValue < temp.right.data){
-                        temp = temp.left;
-                    }else{
-                        temp = temp.right;
-                    }
-                }
-            }*/
-
         }
         return smallestValue;
     }
