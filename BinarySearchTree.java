@@ -229,7 +229,7 @@ class BinarySearchTree{
 
             answer = menu(scanner);
 
-                switch(answer){ //TODO: handle the return value -1 for when root is null from functions
+                switch(answer){
                     case 1:{
                                 System.out.println("What value do you want to assign the node?");
                                 data = Integer.parseInt(scanner.nextLine());
